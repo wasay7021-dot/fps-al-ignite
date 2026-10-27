@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Login | FPS IGNITE XIII</title>
+<link rel="icon" href="images/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="login">
+<div id="app-header"></div>
+<main>
+  <div class="narrow" style="padding-top:56px;max-width:560px">
+    <div class="eyebrow">Your next big idea starts here</div>
+    <h1 class="title">Enter the <span class="red">arena.</span></h1>
+    <p class="lead" style="font-size:13px;margin-bottom:24px">Sign in with the account issued by the IGNITE organizing team.</p>
+    <div class="card" style="padding:0 22px 24px">
+      <div class="tabs" role="tablist">
+        <button type="button" class="on" data-role="delegate" role="tab">Delegate portal</button>
+        <button type="button" data-role="admin" role="tab">Admin portal</button>
+      </div>
+      <div id="already" class="note good" style="display:none;margin-bottom:16px"></div>
+      <form id="loginform" autocomplete="on">
+        <div class="field"><label for="email">Email address</label><input id="email" name="email" type="text" placeholder="Your registered email" required autocomplete="username" autocapitalize="off" spellcheck="false"></div>
+        <div class="field"><label for="password">Password</label><input id="password" name="password" type="password" placeholder="Your password" required autocomplete="current-password"></div>
+        <button class="btn" id="submit" type="submit">Sign in &#8599;</button>
+        <div class="help">Accounts are organizer-managed. Contact your event coordinator for access. Each account can be signed in on one device at a time.</div>
+        <div class="msg" id="err" role="alert"></div>
+      </form>
+    </div>
+    <a href="index.html" style="font-size:13px">&larr; Back to home</a>
+  </div>
+</main>
+<div id="app-footer"></div>
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

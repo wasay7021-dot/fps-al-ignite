@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Admin panel | FPS IGNITE XIII</title>
+<link rel="icon" href="images/favicon.png">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body data-page="admin">
+<div id="app-header"></div>
+<main>
+  <div class="adminwrap">
+    <div class="row-between">
+      <div>
+        <div class="eyebrow">Organizer control room</div>
+        <h1 class="title" style="margin-bottom:0">Admin <span class="red">panel.</span></h1>
+      </div>
+      <div class="inl" id="adminmeta"><span id="conn" class="live">Live</span></div>
+    </div>
+    <div class="atabs" id="tabs" role="tablist"></div>
+    <div id="panes">
+      <section class="tabpane" id="pane-overview" hidden></section>
+      <section class="tabpane" id="pane-auction" hidden></section>
+      <section class="tabpane" id="pane-rooms" hidden></section>
+      <section class="tabpane" id="pane-forex" hidden></section>
+      <section class="tabpane" id="pane-accounts" hidden></section>
+      <section class="tabpane" id="pane-activity" hidden></section>
+    </div>
+  </div>
+</main>
+<div id="app-footer"></div>
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Room Booking | FPS IGNITE XIII</title>
+<link rel="icon" href="images/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="rooms">
+<div id="app-header"></div>
+<main>
+  <div class="container" style="padding-top:44px;max-width:900px">
+    <div class="row-between" style="align-items:center">
+      <a class="back" href="events.html">&larr; All events</a>
+      <span id="conn" class="live">Live</span>
+    </div>
+    <h1 class="title">Room <span class="red">Booking</span></h1>
+    <div class="card" id="mecard"><div class="help">Loading...</div></div>
+    <div class="two" id="rooms"></div>
+    <p class="help" style="margin-top:6px">Booking uses your remaining Auction ICs. Each room has limited places and every delegation can book a room once. The organizers open and close booking.</p>
+  </div>
+</main>
+<div id="app-footer"></div>
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script src="js/rooms.js"></script>
+</body>
+</html>
